@@ -1,0 +1,51 @@
+.box-container {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px 35px 45px 35px;
+    overflow: hidden;
+}
+.box-container--inner {
+    background-color:#fff;
+    padding:10px;
+}
+#homepage, #aboutpage, #contactpage {
+    margin-top:100px;
+    & .feature-image-container {
+        & img {
+            width:100%;
+            height:auto;    
+        }
+    }
+}
+#portfoliopage {
+    & img {
+        width:100%;
+        height:auto;
+    }
+}
+#singlepost {
+    margin-top:70px;
+    & img {
+        width:100%;
+        height:auto;
+    }
+}
+#contactpage {
+    & .feature-image-container {
+        & img {
+            display:block;
+            margin-top:4%;
+        }
+    }
+}
+#portfoliopage {
+    margin-top:70px;
+    & .edd_download_image {
+         & img {
+            width:auto;
+            height:auto;
+        }   
+    }
+}
+#checkoutpage {
+    margin-top:70px;
+}

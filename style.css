@@ -1,0 +1,167 @@
+html {
+  height: 100%; }
+
+body {
+  font-family: 'Oswald', sans-serif;
+  position: relative; }
+  body.custom-background {
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important; }
+  body.logged-in header .navbar.navbar-fixed-top {
+    top: 32px; }
+  body.visitor header .navbar.navbar-fixed-top {
+    top: 0px; }
+
+header .navbar.navbar-fixed-top {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-bottom: rgba(221, 221, 221, 0.95) solid 5px; }
+  header .navbar.navbar-fixed-top a.navbar-brand img {
+    width: 60px; }
+  header .navbar.navbar-fixed-top li.current-menu-item {
+    background: #c9d9ea; }
+    header .navbar.navbar-fixed-top li.current-menu-item a {
+      background: #c9d9ea;
+      color: #fff;
+      border-bottom: #25b5b8 solid 5px;
+      position: relative;
+      top: 5px;
+      line-height: 15px; }
+    header .navbar.navbar-fixed-top li.current-menu-item .arrow-down {
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 6px solid #25b5b8;
+      margin: 0 auto;
+      position: absolute;
+      left: 34px;
+      bottom: -10px; }
+  header .navbar.navbar-fixed-top li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    float: left;
+    line-height: 20px;
+    position: relative; }
+    header .navbar.navbar-fixed-top li a {
+      color: #7e7e7e;
+      padding: 23px 20px 22px 18px;
+      text-decoration: none;
+      display: block;
+      text-transform: uppercase;
+      -webkit-transition: color 0.2s linear, background 0.2s linear;
+      -moz-transition: color 0.2s linear, background 0.2s linear;
+      -o-transition: color 0.2s linear, background 0.2s linear;
+      transition: color 0.2s linear, background 0.2s linear;
+      line-height: 20px; }
+      header .navbar.navbar-fixed-top li a:hover {
+        color: #25B5B8; }
+
+footer {
+  display: none;
+  position: fixed;
+  bottom: 0; }
+
+.bg--color-white {
+  background-color: #fff; }
+
+.margin-none {
+  margin: 0; }
+
+.margin-left-none {
+  margin-left: 0; }
+
+.margin-right-none {
+  margin-right: 0; }
+
+.margin-top-none {
+  margin-top: 0; }
+
+.margin-bottom-none {
+  margin-bottom: 0; }
+
+.padding-none {
+  padding: 0; }
+
+.padding-left-none {
+  padding-left: 0; }
+
+.padding-right-none {
+  padding-right: 0; }
+
+.padding-top-none {
+  padding-top: 0; }
+
+.padding-bottom-none {
+  padding-bottom: 0; }
+
+.box-container {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 40px 35px 45px 35px;
+  overflow: hidden; }
+
+.box-container--inner {
+  background-color: #fff;
+  padding: 10px; }
+
+#homepage, #aboutpage, #contactpage {
+  margin-top: 100px; }
+  #homepage .feature-image-container img, #aboutpage .feature-image-container img, #contactpage .feature-image-container img {
+    width: 100%;
+    height: auto; }
+
+#portfoliopage img {
+  width: 100%;
+  height: auto; }
+
+#singlepost {
+  margin-top: 70px; }
+  #singlepost img {
+    width: 100%;
+    height: auto; }
+
+#contactpage .feature-image-container img {
+  display: block;
+  margin-top: 4%; }
+
+#portfoliopage {
+  margin-top: 70px; }
+  #portfoliopage .edd_download_image img {
+    width: auto;
+    height: auto; }
+
+#checkoutpage {
+  margin-top: 70px; }
+
+html {
+  height: 100%; }
+
+header .navbar.navbar-fixed-top {
+  background-color: #222; }
+
+.navbar-brand {
+  height: 60px;
+  padding: 12px 15px;
+  line-height: 1; }
+
+header .navbar.navbar-fixed-top a.navbar-brand img {
+  width: 150px; }
+
+header .navbar.navbar-fixed-top li.current-menu-item,
+header .navbar.navbar-fixed-top li.current-menu-item a {
+  background: #636363; }
+
+header .navbar.navbar-fixed-top li.current-menu-item a {
+  border-bottom-color: #000; }
+
+header .navbar.navbar-fixed-top li.current-menu-item .arrow-down {
+  border-top-color: #000; }
+
+header .navbar.navbar-fixed-top li a:hover {
+  color: #A4CBEF; }
+
+header .navbar.navbar-fixed-top li.current-menu-item a:hover {
+  color: #FFF; }

@@ -1,0 +1,98 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    &.custom-background {
+        background-repeat:no-repeat !important;
+        background-position: center center !important;
+        background-size:cover !important;
+    }
+    
+    &.logged-in {
+        & header {
+            & .navbar.navbar-fixed-top {
+                top:32px;
+            }
+        }
+    }
+    &.visitor {
+        & header {
+            & .navbar.navbar-fixed-top {
+                top:0px;
+            }
+        }
+    }
+}
+
+header {
+    & .navbar.navbar-fixed-top {
+        background-color:$header-white;
+        border-bottom:$header-grey solid 5px;
+        
+        & a.navbar-brand {
+            & img {
+                width:60px;
+            }    
+        }
+        
+        & li.current-menu-item {
+            background:#c9d9ea;
+            & a {
+                background: #c9d9ea;
+                color: #fff;
+                border-bottom: #25b5b8 solid 5px;
+                position: relative;
+                top: 5px;
+                line-height:15px;
+               
+            }
+             & .arrow-down {
+                width: 0;
+                height: 0;
+                border-left: 6px solid transparent;
+                border-right: 6px solid transparent;
+                border-top: 6px solid #25b5b8;
+                margin: 0 auto;
+                position: absolute;
+                left: 34px;
+                bottom: -10px;
+            }
+        }
+        & li {
+            display: inline-block;
+            font-size: 15px;
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+            float: left;
+            line-height: 20px;
+            position: relative;   
+            
+            & a {
+                color:$grey;
+                padding:23px 20px 22px 18px;
+                text-decoration: none;
+                display: block;
+                text-transform: uppercase;
+                -webkit-transition: color 0.2s linear, background 0.2s linear;
+                -moz-transition: color 0.2s linear, background 0.2s linear;
+                -o-transition: color 0.2s linear, background 0.2s linear;
+                transition: color 0.2s linear, background 0.2s linear;
+                line-height:20px;
+                
+                &:hover {
+                    color:$aqua;
+                }
+            }
+        }
+        
+    }
+}
+footer {
+    display: none;
+    position:fixed;
+    bottom:0;
+}
